@@ -9,6 +9,7 @@ app.use(express.json());
 //     res.status(200).send("<h1>Hello GFG Learner!</h1>");
 // });
 
+app.use(cors());
 
 
 app.post('/', async (req, res) => {
