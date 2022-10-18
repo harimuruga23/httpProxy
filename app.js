@@ -1,13 +1,10 @@
 const express = require('express');
 const axios = require('axios')
+const cors = require('cors')
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 app.use(express.json());
 
-// app.get('/hello', (req, res) => {
-//     res.set('Content-Type', 'text/html');
-//     res.status(200).send("<h1>Hello GFG Learner!</h1>");
-// });
 
 app.use(cors());
 
